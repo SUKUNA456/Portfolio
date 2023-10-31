@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+header>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a52a2a;
+    height: 50px;
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 100px;
+}
+
+.menu-items-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 54px;
+}
+
+.img-header {
+    display: flex;
+    align-items: center;
+}
